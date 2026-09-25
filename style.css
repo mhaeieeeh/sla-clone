@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100px;
+    padding: 50px 400px;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-bar a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #797770;
+    /* border: 2px solid red; */
+}
+
+.nav-bar :last-child {
+    background-color: #0087DB;
+    border-radius: 50px;
+    /* height: 20px; */
+    padding: 20px  20px 40px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF7F6;
+    margin-top: -20px;
+}
+
+.flex-container {
+    background-image: url(images/image1.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: contain;
+}
+
+.flex-container h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    top: 500px;
+    position: absolute;
+    left: 300px;
+    right: 600px;
+}
+
+.flex-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    top: 620px;
+    position: absolute;
+    left: 300px;
+    right: 600px;
+}
+
+.flex-container :last-child {
+    background-color: #0087DB;
+    padding: 20px  20px 20px 20px;
+    position: absolute;
+    left: 300px;
+    top: 700px;
+    right: 600px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 150px;
+}
+
+.flex-container2 {
+    background-image: url(images/imag2.jpg);
+    width: 100%;
+    height: 570px;
+    background-size: contain;
+    padding: 50px 270px;
+    display: flex;
+    margin-top: 30px
+}
+
+.flex-child {
+    position: absolute;
+
+}
+
+.flex-container2 :nth-child(1) {
+    width: 350px;
+}
+
+.flex-child p {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: ;
+}
+
+.flex-container-child {
+    background-color: #EEEEEE;
+    padding: 10px 20px;
+    margin: 30px 0;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.flex-container-child a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #409DDC;
+}
+
+.flex-sub-child {
+    width: 23%;
+   
+
+}
+
+.flex-sub-child span {
+    font-size: 70px;
+    font-weight: 700;
+    
+}
+
+.flex-child2 {
+    position: absolute;
+    left: 690px;
+    /* border: 2px solid red; */
+    color: #EEEEEE;
+     display:flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.flex-sub-child p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px 0 0 0; 
+}
+
+.flex-child2 :nth-child(1) {
+    padding-right: 80px;
+}
+
+.flex-container3 {
+    padding: 30px 300px;
+    background-color: #F0F0F0;
+    display: flex;
+    gap: 50px;
+}
+
+
+.flex-contain span {
+   align-items: justify;
+   color: #409DDC;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.flex-contain {
+     background-color: #177FCD;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+}
+
+.flex-contain a:hover {
+    color: #EEEEEE;
+
+}
+
+.flex-contain a {
+    text-decoration: none;
+    text-align: center;
+   color: #409DDC;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.flex-contain p {
+    text-align: center;
+}
+
+.flex-contain-child1 {
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #C0E7FF;
+    border-radius: 30px;
+    padding: 5px 20px;
+    width: fit-content;
+    color: #1FAEF2;
+}
+
+.flex-contain3 {
+padding: 30px 300px;
+    background-color: #F0F0F0;
+}
+
+.flex-contain3 h2 {
+    font-size: 54px;
+    font-weight: 700;
+}
