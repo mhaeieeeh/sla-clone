@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -9,35 +11,39 @@ img {
 }
 
 body {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family: "Open Sans", sans-serif;
 }
 
 .nav-bar {
     background-color: #FFFFFF;
     width: 100%;
-    height: 100px;
-    padding: 50px 400px;
+    height: 120px;
+    padding: 50px 300px;
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .nav-bar a {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     text-decoration: none;
-    color: #797770;
+    color: #707070;
     /* border: 2px solid red; */
 }
 
-.nav-bar :last-child {
+.nav-bar :nth-child(9) {
     background-color: #0087DB;
     border-radius: 50px;
-    /* height: 20px; */
     padding: 20px  20px 40px 20px;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     color: #FFF7F6;
     margin-top: -20px;
+    /* margin-left: 100px; */
+}
+
+.nav-bar :nth-child(1) {
+    padding-bottom: 100px;
 }
 
 .flex-container {
@@ -48,7 +54,7 @@ body {
 }
 
 .flex-container h2 {
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 600;
     color: #FFFFFF;
     top: 500px;
@@ -58,7 +64,7 @@ body {
 }
 
 .flex-container p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     color: #FFFFFF;
     top: 620px;
@@ -71,12 +77,13 @@ body {
     background-color: #0087DB;
     padding: 20px  20px 20px 20px;
     position: absolute;
+    font-size: 20px;
     left: 300px;
     top: 700px;
     right: 600px;
     color: #FFFFFF;
     border-radius: 50px;
-    width: 150px;
+    width: 170px;
 }
 
 .flex-container2 {
@@ -102,7 +109,7 @@ body {
     font-size: 20px;
     color: #FFFFFF;
     font-weight: 400;
-    text-align: ;
+    
 }
 
 .flex-container-child {
@@ -230,7 +237,7 @@ padding: 30px 300px;
 
 .flex-contain-child2 {
     display: flex;
-    gap: 450px;
+    gap: 410px;
     align-items: center;
 }
 
@@ -438,4 +445,210 @@ padding-top: 20px;
 
 .sub-slayfestival {
     padding-top: 100px;
+}
+
+.flex-contain8 {
+    padding: 100px 290px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #403933;
+}
+
+.flex-contain9 {
+    padding: 0 300px;
+}
+
+.upcoming {
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #C0E7FF;
+    border-radius: 30px;
+    padding: 0px 30px;
+    width: fit-content;
+    color: #1FAEF2;
+}
+
+.flex-contain9 h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.flex-contain-child9 a {
+    font-size: 23px;
+    font-weight: 400;
+    color: #EEEEEE;
+    text-decoration: none;
+    
+}
+
+.flex-contain-child9 span {
+    background-color: #0087DB;
+    border-radius: 50px;
+    padding: 15px 30px;
+    width: fit-content;
+    
+}
+
+.flex-contain-child9 {
+    display: flex;
+    gap: 600px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.flex-contain-child9 span:hover {
+    background-color: #FFFFFF;
+    border: 3px solid #0087DB;
+    border-radius: 50px;
+    color: #0087DB;
+}
+
+.image {
+    display: flex;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+
+.image a {
+    width: 50%;
+}
+
+a h3 {
+    text-decoration: underline;
+    font-size: 22px;
+    color: #0087DB;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.flex-contain10 {
+    background-image: url(images/patern.png);
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    background-color: #0D8DDD;
+    padding: 100px 500px;
+}
+
+.subscribe {
+     font-size: 20px;
+    font-weight: 500;
+    background-color: #C0E7FF;
+    border-radius: 30px;
+    padding: 0px 30px;
+    width: fit-content;
+    color: #1FAEF2;
+    position: absolute;
+    align-items: center;
+    margin-left: 320px;
+}
+
+.flex-contain10 h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #EEEEEE;
+    position: relative;
+    top: 70px;
+    padding: 0 100px;
+    text-align: center;
+}
+
+input  {
+    outline: none;
+    width: 700px;
+    background: transparent;
+    height: 70px;
+    margin-top: 100px;
+    color: #EEEEEE;
+   padding:0;
+   text-align: left;
+    margin-left: 90px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.flex-contain10 input::placeholder {
+     font-size: 18px; 
+    font-weight: 400;
+    color: #EEEEEE;
+   padding-left: 20px;
+}
+
+.flex-contain10 span {
+    font-size: 18px; 
+    font-weight: 400;
+    color: #EEEEEE;
+    background-color: #78ACF4;
+    padding: 20px 30px;
+    border-radius: 50px;
+    margin-left: -123px;
+}
+
+.flex-contain10 span:hover {
+    background-color: #FFFFFF;
+    color: #403933;
+}
+
+.flex-contain11 {
+    background-color: #000000;
+    padding: 0px 200px;
+display: flex;
+gap: 120px;
+justify-content: center;
+
+}
+
+.flex-contain11 div {
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+
+.flex-contain11 img {
+    padding-top: 80px;
+}
+
+.sub-flex-contain11 {
+    display: flex;
+    gap: 100px;
+   
+}
+
+.child h3 {
+    text-decoration: none;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.child a {
+     font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.child span {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.child-span{
+    font-weight: 100;
+}
+
+.last {
+    background-color: #000000;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 700px;
+    padding-bottom: 100px;
 }
